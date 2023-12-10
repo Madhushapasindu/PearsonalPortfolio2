@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pearsonal Portfolio</title>
+  <link rel="stylesheet" href="Style.css">
+  <script src="https://kit.fontawesome.com/6b375d5bbf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="Webimages/Logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Front-End Developer</p>
+        <H1>Hi, I'm <span>Madhusha Pasindu</span> <br>from Sri Lnaka</H1>
+      </div>
+    </div>
+  </div>
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="Webimages/Untitled desighgvn.png" >
+      </div>
+      <div class="about-col-2">
+        <H1 class="subtittle">About Me</H1>
+        <p>As a self-taught front-end developer, I possess a comprehensive understanding of JavaScript and CSS, allowing me to seamlessly translate design concepts into polished, user-centric interfaces. My expertise encompasses the entire spectrum of front-end development, from responsive design to intricate interactive features. With a commitment to staying at the forefront of industry trends, I bring a blend of creativity and technical acumen to every project. Rest assured, I have a firm grasp on all aspects of front-end development, ensuring the delivery of top-notch, impactful websites.</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+          <ul><li><span>Front-End Development</span><br>CSS/JavaScipt</li>
+            <li><span>Web Development</span><br> WordPress</li>
+            <li><span>Graphic Designing</span><br>Adobe photoshop/ Illustrtor</li>
+        </ul> 
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul><li><span>Freelance Developer</span><br>2023</li>
+        </ul> 
+        </div>
+      </div>
+    </div>
+  
+ 
+
+<!-- Services -->
+
+<div id="services">
+  <div class="continer">
+    <H1 class="subtittle">My Services</H1>
+    <p>Add something</p>
+    <div class="services-list">
+      <div>
+        <i class="fa-sharp fa-solid fa-code"></i>
+        <h2>Front-EndDevelopment</h2>
+        <p>I've cloned YouTube and Instagram, showcasing my knack for intricate interfaces. Check out my portfolio for more projects that highlight my attention to detail and passion for clean, functional design</p>
+        <a href="#">Learn more</a>
+      </div>
+     
+       <div>
+        <i class="fa-brands fa-wordpress"></i>
+        <h2>WordPress</h2>
+        <p> I've leveraged my skills in WordPress to create an online shopping site. Explore my portfolio for a firsthand look at how I blend coding expertise with the versatility of the platform to deliver unique and functional solutions.</p>
+        <a href="#">Learn more</a>
+      </div>
+    <div>
+      <i class="fa-brands fa-sketch"></i>
+        <h2>Graphic Designing</h2>
+        <p>Coding and crafting visuals go hand in hand for me. Explore my portfolio to see how I blend coding expertise with graphic design for seamless and visually compelling projects.</p>
+        <a href="https://www.behance.net/madhushapasindu">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- portfolio -->
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work </h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="Webimages/work-1.png">
+        <div class="layer">
+          <h3>Youtube clone</h3>
+          <p> add something</p>
+          <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+        </div>
+
+  </div>
+  <div class="work">
+    <img src="Webimages/work-2.png">
+    <div class="layer">
+      <h3>Instagram clone</h3>
+      <p> add something</p>
+      <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+    </div>
+
+</div>
+<div class="work">
+  <img src="Webimages/work-3.png">
+  <div class="layer">
+    <h3>Online shopping site</h3>
+    <p> add something</p>
+    <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+  </div>
+</div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!-- contact -->
+
+<div class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="subtitle">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>madhushapasindu1010@gmail.com</p>
+        <P><i class="fa-solid fa-phone"></i>+94771622977</P>
+        <div class="social-icon">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-square-x-twitter"></i> </a>
+        </div>
+        <a href="" class="btn btn2">Download CV</a>
+      </div>
+
+      <div class="contact-right">
+
+        <form name="submit-to-google-sheet">
+          <input type=" text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="copyright">
+  <p>Copyright <i class="fa-regular fa-copyright"></i> Madhusha</p>
+</div>
+
+
+
+<script>
+  var tablinks= document.getElementsByClassName("tab-links");
+  var tabcontents= document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+      
+    }
+
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+
+</script>
+
+<script>
+
+var sidemenu= document.getElementById("sidemenu")
+
+function openmenu(){
+  sidemenu.style.right="0"
+}
+function closemenu(){
+  sidemenu.style.right="-200px"
+}
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbytBjQP1HYwWF77LTzSjkxSs6dNJRG_SWIco_dQDEtTXN4d7XCpVOyg3-harTE3pkvz/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg= document.getElementById('msg')
+
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
